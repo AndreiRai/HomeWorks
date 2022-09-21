@@ -1,0 +1,48 @@
+@import url('https //fonts.googleapis.com/css2 family=roboto &display=swap');
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+h1{
+    color: black;
+   font-size: 50px;
+   margin-left: 180px;
+}
+
+.flex_container {
+    background-color: gray;
+    width: 1000px;
+     margin: 100px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
+
+.flex_container-item  {
+    background-color: #fffc;
+    margin:10px;
+  }
+.fci_1, .fci_2, .fci_3, .fci_4{
+    border-left: solid 10px  darkgoldenrod;
+width: 450px;
+height: 300px;
+}
+.item_header {
+    color: darkgoldenrod;
+    font-size: 35px;
+    margin-left: 10px;
+    }
+     .item_text{
+    margin-left:  10px;
+    font-size: 20px;
+    }
+     .icon > img{
+        width: 25px;
+        height: 25px; 
+        margin-left:  10px;  
+    }
+
